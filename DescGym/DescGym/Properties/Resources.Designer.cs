@@ -63,9 +63,29 @@ namespace DescGym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap b8b66ad9ebabc73737bbadada91403d8 {
+            get {
+                object obj = ResourceManager.GetObject("b8b66ad9ebabc73737bbadada91403d8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brawn {
             get {
                 object obj = ResourceManager.GetObject("brawn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IFEDemo {
+            get {
+                object obj = ResourceManager.GetObject("IFEDemo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

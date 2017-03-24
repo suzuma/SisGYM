@@ -13,7 +13,7 @@ namespace DescGym.Modelo
     public class Pago
     {
         [Key]
-        public int pkPago { get; set; }
+        public int PagoId { get; set; }
         public DateTime dFechaPago { get; set; }
         [Required(ErrorMessage ="Debe indicar el empleado")]
         public int fkUsuarioEmpleado { get; set; }

@@ -11,7 +11,7 @@ namespace DescGym.Modelo
     public class Permiso
     {
         [Key]
-        public int pkPermiso { get; set; }
+        public int PermisoId { get; set; }
         [Required(ErrorMessage = "Falta el Nombre")]
         public String sNombre { get; set; }        
         public String sDescripcion { get; set; }

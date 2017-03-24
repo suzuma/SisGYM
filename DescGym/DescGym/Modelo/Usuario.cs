@@ -13,7 +13,7 @@ namespace DescGym.Modelo
     public class Usuario
     {
         [Key]
-        public int pkUsuario { get; set; }
+        public int UsuarioId { get; set; }
         [Required(ErrorMessage ="Falta Nombre")]
         public String sNombre { get; set; }
         [Required(ErrorMessage = "Falta Apellidos")]

@@ -13,7 +13,7 @@ namespace DescGym.Modelo
     public class Acceso
     {
         [Key]
-        public int pkAcceso { get; set; }
+        public int AccesoId { get; set; }
         public DateTime dFechaAcceso { get; set; }
         public virtual Usuario usuario { get; set; }
 

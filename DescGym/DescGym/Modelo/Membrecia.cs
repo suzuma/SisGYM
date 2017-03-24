@@ -19,7 +19,7 @@ namespace DescGym.Modelo
         }
 
         [Key]
-        public int pkMembrecia { get; set; }
+        public int MembreciaId { get; set; }
         [Required(ErrorMessage ="Falta definir el tipo")]
         public TIPO_MEMBRECIA sTipo { get; set; }
         [Required(ErrorMessage = "Falta establecer el precio")]

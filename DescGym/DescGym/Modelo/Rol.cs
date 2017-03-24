@@ -13,7 +13,7 @@ namespace DescGym.Modelo
     public class Rol
     {
         [Key]
-        public int pkRol { get; set; }
+        public int RolId { get; set; }
         [Required(ErrorMessage ="Falta el nombre del rol")]
         public String sNombre { get; set; }
 

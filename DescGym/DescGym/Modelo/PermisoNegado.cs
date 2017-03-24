@@ -13,7 +13,7 @@ namespace DescGym.Modelo
     public class PermisoNegado
     {
         [Key]
-        public int pkPermisoNegado { get; set; }
+        public int PermisoNegadoId { get; set; }
         public virtual Rol rol{get; set;}
         public virtual Permiso permiso { get; set; }
     }
